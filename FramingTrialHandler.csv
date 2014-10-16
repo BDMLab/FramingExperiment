@@ -1,0 +1,97 @@
+Full Amount,Frame,Gamble,Stable,Catch,GambleLeft
+£25,Gain ,Keep80.jpg,Keep £20,0,1
+£25,Gain,Keep60.jpg,Keep £15,0,1
+£25,Gain,Keep40.jpg,Keep £10,0,1
+£25,Gain,Keep20.jpg,Keep £5,0,1
+£25,Loss,Keep80.jpg,Lose £5,0,1
+£25,Loss,Keep60.jpg,Lose £10,0,1
+£25,Loss,Keep40.jpg,Lose £15,0,1
+£25,Loss,Keep20.jpg,Lose £20,0,1
+£25,Gain ,Keep80.jpg,Keep £20,0,0
+£25,Gain,Keep60.jpg,Keep £15,0,0
+£25,Gain,Keep40.jpg,Keep £10,0,0
+£25,Gain,Keep20.jpg,Keep £5,0,0
+£25,Loss,Keep80.jpg,Lose £5,0,0
+£25,Loss,Keep60.jpg,Lose £10,0,0
+£25,Loss,Keep40.jpg,Lose £15,0,0
+£25,Loss,Keep20.jpg,Lose £20,0,0
+£50,Gain ,Keep80.jpg,Keep £40,0,1
+£50,Gain,Keep60.jpg,Keep £30,0,1
+£50,Gain,Keep40.jpg,Keep £20,0,1
+£50,Gain,Keep20.jpg,Keep £10,0,1
+£50,Loss,Keep80.jpg,Lose £10,0,1
+£50,Loss,Keep60.jpg,Lose £20,0,1
+£50,Loss,Keep40.jpg,Lose £30,0,1
+£50,Loss,Keep20.jpg,Lose £40,0,1
+£50,Gain ,Keep80.jpg,Keep £40,0,0
+£50,Gain,Keep60.jpg,Keep £30,0,0
+£50,Gain,Keep40.jpg,Keep £20,0,0
+£50,Gain,Keep20.jpg,Keep £10,0,0
+£50,Loss,Keep80.jpg,Lose £10,0,0
+£50,Loss,Keep60.jpg,Lose £20,0,0
+£50,Loss,Keep40.jpg,Lose £30,0,0
+£50,Loss,Keep20.jpg,Lose £40,0,0
+£75,Gain ,Keep80.jpg,Keep £60,0,1
+£75,Gain,Keep60.jpg,Keep £45,0,1
+£75,Gain,Keep40.jpg,Keep £30,0,1
+£75,Gain,Keep20.jpg,Keep £15,0,1
+£75,Loss,Keep80.jpg,Lose £15,0,1
+£75,Loss,Keep60.jpg,Lose £30,0,1
+£75,Loss,Keep40.jpg,Lose £45,0,1
+£75,Loss,Keep20.jpg,Lose £60,0,1
+£75,Gain ,Keep80.jpg,Keep £40,0,0
+£75,Gain,Keep60.jpg,Keep £30,0,0
+£75,Gain,Keep40.jpg,Keep £20,0,0
+£75,Gain,Keep20.jpg,Keep £10,0,0
+£75,Loss,Keep80.jpg,Lose £15,0,0
+£75,Loss,Keep60.jpg,Lose £30,0,0
+£75,Loss,Keep40.jpg,Lose £45,0,0
+£75,Loss,Keep20.jpg,Lose £60,0,0
+£100,Gain ,Keep80.jpg,Keep £80,0,1
+£100,Gain,Keep60.jpg,Keep £60,0,1
+£100,Gain,Keep40.jpg,Keep £40,0,1
+£100,Gain,Keep20.jpg,Keep £20,0,1
+£100,Loss,Keep80.jpg,Lose £20,0,1
+£100,Loss,Keep60.jpg,Lose £40,0,1
+£100,Loss,Keep40.jpg,Lose £60,0,1
+£100,Loss,Keep20.jpg,Lose £80,0,1
+£100,Gain ,Keep80.jpg,Keep £80,0,0
+£100,Gain,Keep60.jpg,Keep £60,0,0
+£100,Gain,Keep40.jpg,Keep £40,0,0
+£100,Gain,Keep20.jpg,Keep £20,0,0
+£100,Loss,Keep80.jpg,Lose £20,0,0
+£100,Loss,Keep60.jpg,Lose £40,0,0
+£100,Loss,Keep40.jpg,Lose £60,0,0
+£100,Loss,Keep20.jpg,Lose £80,0,0
+£25,Gain,Keep95.jpg,Keep £17.50,1,1
+£25,Gain,Keep5.jpg,Keep £17.50,1,1
+£25,Loss,Keep95.jpg,Lose £17.50,1,1
+£25,Loss,Keep5.jpg,Lose £17.50,1,1
+£25,Gain,Keep95.jpg,Keep £17.50,1,0
+£25,Gain,Keep5.jpg,Keep £17.50,1,0
+£25,Loss,Keep95.jpg,Lose £17.50,1,0
+£25,Loss,Keep5.jpg,Lose £17.50,1,0
+£50,Gain,Keep95.jpg,Keep £25,1,1
+£50,Gain,Keep5.jpg,Keep £25,1,1
+£50,Loss,Keep95.jpg,Lose £25,1,1
+£50,Loss,Keep5.jpg,Lose £25,1,1
+£50,Gain,Keep95.jpg,Keep £25,1,0
+£50,Gain,Keep5.jpg,Keep £25,1,0
+£50,Loss,Keep95.jpg,Lose £25,1,0
+£50,Loss,Keep5.jpg,Lose £25,1,0
+£75,Gain,Keep95.jpg,Keep £32.50,1,1
+£75,Gain,Keep5.jpg,Keep £32.50,1,1
+£75,Loss,Keep95.jpg,Lose £32.50,1,1
+£75,Loss,Keep5.jpg,Lose £32.50,1,1
+£75,Gain,Keep95.jpg,Keep £32.50,1,0
+£75,Gain,Keep5.jpg,Keep £32.50,1,0
+£75,Loss,Keep95.jpg,Lose £32.50,1,0
+£75,Loss,Keep5.jpg,Lose £32.50,1,0
+£100,Gain,Keep95.jpg,Keep £50,1,1
+£100,Gain,Keep5.jpg,Keep £50,1,1
+£100,Loss,Keep95.jpg,Lose £50,1,1
+£100,Loss,Keep5.jpg,Lose £50,1,1
+£100,Gain,Keep95.jpg,Keep £50,1,0
+£100,Gain,Keep5.jpg,Keep £50,1,0
+£100,Loss,Keep95.jpg,Lose £50,1,0
+£100,Loss,Keep5.jpg,Lose £50,1,0
