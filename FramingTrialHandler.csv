@@ -39,10 +39,10 @@ Full Amount,Frame,Gamble,Stable,Catch,GambleLeft
 £75,Loss,Keep60.jpg,Lose £30,0,1
 £75,Loss,Keep40.jpg,Lose £45,0,1
 £75,Loss,Keep20.jpg,Lose £60,0,1
-£75,Gain ,Keep80.jpg,Keep £40,0,0
-£75,Gain,Keep60.jpg,Keep £30,0,0
-£75,Gain,Keep40.jpg,Keep £20,0,0
-£75,Gain,Keep20.jpg,Keep £10,0,0
+£75,Gain ,Keep80.jpg,Keep £60,0,0
+£75,Gain,Keep60.jpg,Keep £45,0,0
+£75,Gain,Keep40.jpg,Keep £30,0,0
+£75,Gain,Keep20.jpg,Keep £15,0,0
 £75,Loss,Keep80.jpg,Lose £15,0,0
 £75,Loss,Keep60.jpg,Lose £30,0,0
 £75,Loss,Keep40.jpg,Lose £45,0,0
