@@ -1,0 +1,13 @@
+Full Amount,Frame,Gamble,Stable,Catch,GambleLeft
+£80,Loss,Stimuli/Colourblind/Keep95.jpg,Lose £40,1,0
+£80,Loss,Stimuli/Colourblind/Keep5.jpg,Lose £40,1,1
+£20,Gain,Stimuli/Colourblind/Keep95.jpg,Keep £10,1,0
+£20,Gain,Stimuli/Colourblind/Keep5.jpg,Keep £10,1,1
+£100,Loss,Stimuli/Colourblind/Keep20.jpg,Lose £80,0,0
+£75,Loss,Stimuli/Colourblind/Keep40.jpg,Lose £45,0,1
+£50,Loss,Stimuli/Colourblind/Keep60.jpg,Lose £20,0,0
+£25,Loss,Stimuli/Colourblind/Keep80.jpg,Lose £5,0,1
+£25,Gain,Stimuli/Colourblind/Keep60.jpg,Keep £15,0,0
+£50,Gain ,Stimuli/Colourblind/Keep80.jpg,Keep £40,0,1
+£75,Gain,Stimuli/Colourblind/Keep20.jpg,Keep £15,0,0
+£100,Gain,Stimuli/Colourblind/Keep40.jpg,Keep £40,0,1
