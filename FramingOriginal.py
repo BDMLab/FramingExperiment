@@ -1,8 +1,10 @@
 #!/usr/bin/env python2
 # -*- coding: utf-8 -*-
 """
-This is a Psychopy adaptation of the experimental design of Frames, Biases, and Rational Decision-Making in the Human Brain
-by De Martino et al. (2006). The code is written by Tomas Folke.
+This is a Psychopy adaptation of the experimental design from the paper:
+    De Martino et al (2006) Frames, Biases, and Rational Decision-Making in the Human Brain. Science, 313(5787), 684-687.
+    
+    The code is written by Tomas Folke.
 
 This experiment was created using PsychoPy2 Experiment Builder (v1.81.00), Thu Oct 16 13:34:11 2014
 If you publish work using this script please cite the relevant PsychoPy publications
@@ -24,7 +26,7 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'Framing'  # from the Builder filename that created this script
+expName = 'FramingOriginal'  # from the Builder filename that created this script
 expInfo = {'participant':'', 'session':'001'}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
@@ -65,8 +67,8 @@ else:
 # Initialize components for Routine "InstrStart"
 InstrStartClock = core.Clock()
 InstrStartText = visual.TextStim(win=win, ori=0, name='InstrMainText',
-    text=u'Welcome to this experiment.\n\nFirst you will do a number of practice trials too familiarise yourself with the task. Please press space to begin.',    font=u'Arial',
-    pos=[0, 0], height=0.1, wrapWidth=None,
+    text=u'Welcome to this experiment.\n\nFirst you will do a number of practice trials to familiarise yourself with the task. \n\nPlease press space to begin.',    font=u'Arial',
+    pos=[0, 0], height=2, wrapWidth=30, units='cm',
     color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -74,7 +76,7 @@ InstrStartText = visual.TextStim(win=win, ori=0, name='InstrMainText',
 InstrMainClock = core.Clock()
 InstrMainText = visual.TextStim(win=win, ori=0, name='InstrMainText',
     text=u'You have now finished the practice trials.\n\nPlease press space when you are ready to start the main part of the experiment.',    font=u'Arial',
-    pos=[0, 0], height=0.1, wrapWidth=None,
+    pos=[0, 0], height=2, wrapWidth=30, units='cm',
     color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -95,13 +97,13 @@ BaseValue = visual.TextStim(win=win, ori=0, name='BaseValue',
 trialClock = core.Clock()
 ISI = core.StaticPeriod(win=win, screenHz=expInfo['frameRate'], name='ISI')
 ProbabilityLeft = visual.ImageStim(win=win, name='ProbabilityLeft',
-    image=u'Keep80.jpg', mask=None, units='cm',
+    image=u'Stimuli/Original/Keep80.jpg', mask=None, units='cm',
     ori=0, pos=[-15, 0], size=[22, 17],
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True)
 ProbabilityRight = visual.ImageStim(win=win, name='ProbabilityRight',
-    image=u'Keep80.jpg', mask=None, units='cm',
+    image=u'Stimuli/Original/Keep80.jpg', mask=None, units='cm',
     ori=0, pos=[15, 0], size=[22, 17],
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -131,15 +133,15 @@ SelectRight = visual.Rect(win=win, name='SelectRight',
     
 # Initialize components for Routine "Slow"
 SlowClock = core.Clock()
-SlowText = visual.TextStim(win=win, ori=0, name='rest_prompt_txt', text=u'Too Slow', font=u'Arial', pos=[0, 0], height=3, units='cm', wrapWidth=None, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
+SlowText = visual.TextStim(win=win, ori=0, name='SlowText', text=u'Too Slow', font=u'Arial', pos=[0, 0], height=3, units='cm', wrapWidth=None, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
 
 # Instalize components for "Rest"
 RestClock = core.Clock()
-RestText = visual.TextStim(win=win, ori=0, name='rest_prompt_txt', text=u'Great! Now have a rest and press spacebar when you are ready to begin the next block.', font=u'Arial', pos=[0, 0], height=0.08, wrapWidth=None, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
+RestText = visual.TextStim(win=win, ori=0, name='RestText', text=u'Great! Now have a rest and press space when you are ready to begin the next block.', font=u'Arial', pos=[0, 0], units='cm', height=2, wrapWidth=30, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
 
 # Instalize components for "Thank You"
 ThankYouClock = core.Clock()
-ThankYouText = visual.TextStim(win=win, ori=0, name='rest_prompt_txt', text=u'You have now completed this experiment. Thank you for your participation. Please inform the experimenter that you have finished.', font=u'Arial', pos=[0, 0], height=0.08, wrapWidth=None, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
+ThankYouText = visual.TextStim(win=win, ori=0, name='ThankYouText', text=u'You have now completed this experiment. Thank you for your participation. Please inform the experimenter that you have finished.', font=u'Arial', pos=[0, 0], height=2, units='cm', wrapWidth=30, color=u'white', colorSpace=u'rgb', opacity=1, depth=0.0)
 
 
 # Create some handy timers
@@ -440,12 +442,6 @@ for thisPracticeLoop in PracticeLoop:
 
 
         # Store data for experiment:
-        thisExp.addData('Frame', Frame)
-        thisExp.addData('Stable', Stable)
-        thisExp.addData('Gamble', Gamble)
-        thisExp.addData('FullAmount', Full_Amount)
-        thisExp.addData('GambleLeft', GambleLeft)
-        thisExp.addData('Catch', Catch)
         thisExp.addData('Response', KeyResp.keys)
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
@@ -723,12 +719,6 @@ for thisPracticeLoop in PracticeLoop:
 
 
         # Store data for experiment:
-        thisExp.addData('Frame', Frame)
-        thisExp.addData('Stable', Stable)
-        thisExp.addData('Gamble', Gamble)
-        thisExp.addData('FullAmount', Full_Amount)
-        thisExp.addData('GambleLeft', GambleLeft)
-        thisExp.addData('Catch', Catch)
         thisExp.addData('Response', KeyResp.keys)
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
@@ -1187,12 +1177,6 @@ for thisFramingLoop in FramingLoop:
     
     
         # Store data for experiment:
-        thisExp.addData('Frame', Frame)
-        thisExp.addData('Stable', Stable)
-        thisExp.addData('Gamble', Gamble)
-        thisExp.addData('FullAmount', Full_Amount)
-        thisExp.addData('GambleLeft', GambleLeft)
-        thisExp.addData('Catch', Catch)
         thisExp.addData('Response', KeyResp.keys)
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
@@ -1470,12 +1454,6 @@ for thisFramingLoop in FramingLoop:
     
     
         # Store data for experiment:
-        thisExp.addData('Frame', Frame)
-        thisExp.addData('Stable', Stable)
-        thisExp.addData('Gamble', Gamble)
-        thisExp.addData('FullAmount', Full_Amount)
-        thisExp.addData('GambleLeft', GambleLeft)
-        thisExp.addData('Catch', Catch)
         thisExp.addData('Response', KeyResp.keys)
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
@@ -1728,8 +1706,8 @@ ThankYouResponse = event.BuilderKeyResponse()  # create an object of type KeyRes
 ThankYouResponse.status = NOT_STARTED
 # keep track of which components have finished
 ThankYouComponents = []
-ThankYouComponents.append(Instructions3Text)
-ThankYouComponents.append(Instructions3Response)
+ThankYouComponents.append(ThankYouText)
+ThankYouComponents.append(ThankYouResponse)
 for thisComponent in ThankYouComponents:
     if hasattr(thisComponent, 'status'):
         thisComponent.status = NOT_STARTED
