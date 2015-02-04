@@ -7,4 +7,6 @@ There are two versions of this experiment, one with the original colour scheme (
 
 The original printed instructions for the task can be found as a pdf in the folder “Instructions”. “Modifying Framing Loop.ipnb” is an ipython notebook designed to easily change the search path for the images in the condition files whilst leaving the remaining conditions intact.
 
+When analysing the data, note that row 112 and 209 represent the rest trials between the blocks, so make sure to remove them before conducting any further analysis.
+
 If you have any questions about the code feel free to contact me on tomas.folke@gmail.com. 

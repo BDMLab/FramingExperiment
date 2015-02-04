@@ -67,8 +67,8 @@ else:
 # Initialize components for Routine "InstrStart"
 InstrStartClock = core.Clock()
 InstrStartText = visual.TextStim(win=win, ori=0, name='InstrMainText',
-    text=u'Welcome to this experiment.\n\nFirst you will do a number of practice trials to familiarise yourself with the task. \n\nPlease press space to begin.',    font=u'Arial',
-    pos=[0, 0], height=2, wrapWidth=30, units='cm',
+    text=u'Welcome to this experiment.\n\nFirst you will do a number of practice trials to familiarise yourself with the task. You use the left arrow key to choose the left option and the right arrow key to choose the right option. \n\nPlease press space to begin.',    font=u'Arial',
+    pos=[0, 0], height=1.5, wrapWidth=30, units='cm',
     color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -76,7 +76,7 @@ InstrStartText = visual.TextStim(win=win, ori=0, name='InstrMainText',
 InstrMainClock = core.Clock()
 InstrMainText = visual.TextStim(win=win, ori=0, name='InstrMainText',
     text=u'You have now finished the practice trials.\n\nPlease press space when you are ready to start the main part of the experiment.',    font=u'Arial',
-    pos=[0, 0], height=2, wrapWidth=30, units='cm',
+    pos=[0, 0], height=1.5, wrapWidth=30, units='cm',
     color=u'white', colorSpace='rgb', opacity=1,
     depth=0.0)
 
@@ -446,9 +446,9 @@ for thisPracticeLoop in PracticeLoop:
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
         if KeyResp.keys == 'left':
-            thisExp.addData('Choice', LeftChoice)
+            thisExp.addData('Choice', 'Stable')
         if KeyResp.keys == 'right':
-            thisExp.addData('Choice', RightChoice)
+            thisExp.addData('Choice', 'Gamble')
         thisExp.nextEntry()
 
         # Only do the outcome routine if there is a response of this trial
@@ -723,9 +723,9 @@ for thisPracticeLoop in PracticeLoop:
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
         if KeyResp.keys == 'left':
-            thisExp.addData('Choice', LeftChoice)
+            thisExp.addData('Choice', 'Gamble')
         if KeyResp.keys == 'right':
-            thisExp.addData('Choice', RightChoice)
+            thisExp.addData('Choice', 'Stable')
         thisExp.nextEntry()
 
         # Only do the outcome routine if there is a response of this trial
@@ -1065,8 +1065,8 @@ for thisFramingLoop in FramingLoop:
     # If the gamble should be shown on the right side of the screen, run the following:
     if GambleLeft == 0:
         # Creating a variable to simplify storing participants' answers at the end of the routine
-        RightChoice=Gamble
-        LeftChoice=Stable
+        RightChoice = Gamble
+        LeftChoice = Stable
         #------Prepare to start Routine "trial"-------
         t = 0
         trialClock.reset()  # clock 
@@ -1181,9 +1181,9 @@ for thisFramingLoop in FramingLoop:
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
         if KeyResp.keys == 'left':
-            thisExp.addData('Choice', LeftChoice)
+            thisExp.addData('Choice', 'Stable')
         if KeyResp.keys == 'right':
-            thisExp.addData('Choice', RightChoice)
+            thisExp.addData('Choice', 'Gamble')
         thisExp.nextEntry()
         
         # Only do the outcome routine if there is a response of this trial
@@ -1458,9 +1458,9 @@ for thisFramingLoop in FramingLoop:
         if KeyResp.keys != None:
             thisExp.addData('RT', KeyResp.rt)
         if KeyResp.keys == 'left':
-            thisExp.addData('Choice', LeftChoice)
+            thisExp.addData('Choice', 'Gamble')
         if KeyResp.keys == 'right':
-            thisExp.addData('Choice', RightChoice)
+            thisExp.addData('Choice', 'Stable')
         thisExp.nextEntry()
         
         # Only do the outcome routine if there is a response of this trial
