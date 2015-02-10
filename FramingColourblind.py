@@ -263,7 +263,7 @@ for thisPracticeLoop in PracticeLoop:
 
     #------Prepare to start Routine "OriginalValue"-------
     # determine the text for the OriginalValueStimuli:
-    BaseValueText=u'You receive \n %s' %Full_Amount
+    BaseValueText=u'You receive \n %s' %FullAmount
     t = 0
     OriginalValueClock.reset()  # clock
     frameN = -1
@@ -998,7 +998,7 @@ for thisFramingLoop in FramingLoop:
     RestCounter += 1
     #------Prepare to start Routine "OriginalValue"-------
     # determine the text for the OriginalValueStimuli:
-    BaseValueText=u'You receive \n %s' %Full_Amount
+    BaseValueText=u'You receive \n %s' %FullAmount
     t = 0
     OriginalValueClock.reset()  # clock 
     frameN = -1
