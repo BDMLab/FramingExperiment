@@ -243,7 +243,7 @@ thisExp.nextEntry()
 # set up handler to look after randomisation of conditions etc
 PracticeLoop = data.TrialHandler(nReps=1, method='random',
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions(u'PracticeTrialHandlerColourblind.csv'),
+    trialList=data.importConditions(u'PracticeTrialHandlerColourblind.xlsx'),
     seed=None, name='PracticeLoop')
 thisExp.addLoop(PracticeLoop)  # add the loop to the experiment
 thisPracticeLoop = PracticeLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -263,7 +263,7 @@ for thisPracticeLoop in PracticeLoop:
 
     #------Prepare to start Routine "OriginalValue"-------
     # determine the text for the OriginalValueStimuli:
-    BaseValueText=u'You receive \n %s' %FullAmount
+    BaseValueText=u'You receive \n £%s' %FullAmount
     t = 0
     OriginalValueClock.reset()  # clock
     frameN = -1
@@ -974,7 +974,7 @@ thisExp.nextEntry()
 # set up handler to look after randomisation of conditions etc
 FramingLoop = data.TrialHandler(nReps=3, method='random', 
     extraInfo=expInfo, originPath=None,
-    trialList=data.importConditions(u'FramingTrialHandlerColourblind.csv'),
+    trialList=data.importConditions(u'FramingTrialHandlerColourblind.xlsx'),
     seed=None, name='FramingLoop')
 thisExp.addLoop(FramingLoop)  # add the loop to the experiment
 thisFramingLoop = FramingLoop.trialList[0]  # so we can initialise stimuli with some values
@@ -998,7 +998,7 @@ for thisFramingLoop in FramingLoop:
     RestCounter += 1
     #------Prepare to start Routine "OriginalValue"-------
     # determine the text for the OriginalValueStimuli:
-    BaseValueText=u'You receive \n %s' %FullAmount
+    BaseValueText=u'You receive \n £%s' %FullAmount
     t = 0
     OriginalValueClock.reset()  # clock 
     frameN = -1
